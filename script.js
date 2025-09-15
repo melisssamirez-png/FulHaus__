@@ -1,3 +1,11 @@
+
+conts imagenes = [
+
+  "../FulHaus__/imagenes/CARTA.webp"
+]
+
+
+
 // Crear las listas de imágenes, títulos y frases
 const imagenes = [
   "../FulHaus__/imagenes/guss.jpg",
@@ -60,3 +68,4 @@ boton.addEventListener("click", function () {
 });
 
 generarPrediccion();
+

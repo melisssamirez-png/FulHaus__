@@ -57,10 +57,18 @@ h2 {
   font-size: 4em;
   font-style: bolder;
  
-
-
-  
 }
+
+#titulocartas {
+  margin-top: 15em;
+  margin-bottom: 0;
+   font-family: "PT Sans", sans-serif;
+  font-weight: 800;
+  font-size: 4em;
+  font-style: bolder;
+ 
+}
+
 
 
 #foto {
