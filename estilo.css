@@ -36,11 +36,25 @@ h2 {
 
 }
 
+
 #tituloPagina {
-  margin-top: 1em;
+  margin-top: 2em;
+  margin-bottom: 0;
+   font-family: "Libertinus Keyboard", sans-serif;
+   font-size: 16em;
+  font-weight: 800;
+  font-style: bolder;
+  text-align: center;
+
+}
+  
+  
+#titulomiembros {
+  margin-top: 15em;
   margin-bottom: 0;
    font-family: "PT Sans", sans-serif;
   font-weight: 800;
+  font-size: 4em;
   font-style: bolder;
  
 
@@ -58,8 +72,8 @@ h2 {
 .tituloPrediccion {
   font-size: 2em;
     margin-bottom: 0;
-  font-family: "Libertinus Keyboard", system-ui;
-  font-weight: 400;
+  font-family: "PT Sans", system-ui;
+  font-weight: 800;
   font-style: normal;
 
 ;
