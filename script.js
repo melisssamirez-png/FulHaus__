@@ -8,12 +8,12 @@ function flipCard() {
 
 // Crear las listas de imágenes, títulos y frases
 const imagenes = [
-  "FulHaus__/imagenes/guss.jpg",
-  "FulHaus__/imagenes/isa.jpg",
-  "FulHaus__/imagenes/manuel.jpg",
-  "FulHaus__/imagenes/tom.jpg",
-  "FulHaus__/imagenes/meli.jpg",
-  "FulHaus__/imagenes/todos.jpg",
+  "../FulHaus__/imagenes/guss.jpg",
+  "../FulHaus__/imagenes/isa.jpg",
+  "../FulHaus__/imagenes/manuel.jpg",
+  "../FulHaus__/imagenes/tom.jpg",
+  "../FulHaus__/imagenes/meli.jpg",
+  "../FulHaus__/imagenes/todos.jpg",
 ];
 
 const titulos = [
@@ -68,9 +68,14 @@ boton.addEventListener("click", function () {
   generarPrediccion();
 });
 
-carta.addEventListener("click", function () {
-  carta.src= /imagenes/carta.webp";
+carta.addEventListener("click", ()=> {
+ 
+  flipCard ();
+
+  imagen.src =  "FulHaus__/imagenes/guss.jpg";
+
+
 });
 
-generarPrediccion();
+
 
