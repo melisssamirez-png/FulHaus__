@@ -69,7 +69,7 @@ boton.addEventListener("click", function () {
 });
 
 carta.addEventListener("click", function () {
-  carta.src= ../imagenes/FulHaus__/guss.jpg";
+  carta.src= ../imagenes/FulHaus__/carta.webp";
 });
 
 generarPrediccion();
