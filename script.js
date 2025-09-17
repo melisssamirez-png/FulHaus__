@@ -1,8 +1,4 @@
 
-const imagenes2 = [
-
-  "../FulHaus__/imagenes/CARTA.webp"
-]
 
 function flipCard() {
     const carta = document.querySelector('.carta');
@@ -12,12 +8,12 @@ function flipCard() {
 
 // Crear las listas de imágenes, títulos y frases
 const imagenes = [
-  "../FulHaus__/imagenes/guss.jpg",
-  "../FulHaus__/imagenes/isa.jpg",
-  "../FulHaus__/imagenes/manuel.jpg",
-  "../FulHaus__/imagenes/tom.jpg",
-  "../FulHaus__/imagenes/meli.jpg",
-  "../FulHaus__/imagenes/todos.jpg",
+  "../imagenes/FulHaus__/guss.jpg",
+  "../imagenes/FulHaus__/isa.jpg",
+  "../imagenes/FulHaus__/manuel.jpg",
+  "../imagenes/FulHaus__/tom.jpg",
+  "../imagenes/FulHaus__/meli.jpg",
+  "../imagenes/FulHaus__//todos.jpg",
 ];
 
 const titulos = [
@@ -73,7 +69,7 @@ boton.addEventListener("click", function () {
 });
 
 carta.addEventListener("click", function () {
-  carta.src= "./imagenes/CARTA.webp";
+  carta.src= "./imagenes/guss.jpg";
 });
 
 generarPrediccion();
