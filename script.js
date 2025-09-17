@@ -8,12 +8,12 @@ function flipCard() {
 
 // Crear las listas de imágenes, títulos y frases
 const imagenes = [
-  "../imagenes/guss.jpg",
-  "../imagenes/isa.jpg",
-  "../imagenes/manuel.jpg",
-  "../imagenes/tom.jpg",
-  "../imagenes/meli.jpg",
-  "../imagenes/todos.jpg",
+  "imagenes/guss.jpg",
+  "imagenes/isa.jpg",
+  "imagenes/manuel.jpg",
+  "imagenes/tom.jpg",
+  "imagenes/meli.jpg",
+  "imagenes/todos.jpg",
 ];
 
 const titulos = [
@@ -69,7 +69,7 @@ boton.addEventListener("click", function () {
 });
 
 carta.addEventListener("click", function () {
-  carta.src= ../imagenes/carta.webp";
+  carta.src= /imagenes/carta.webp";
 });
 
 generarPrediccion();
