@@ -8,12 +8,12 @@ function flipCard() {
 
 // Crear las listas de imágenes, títulos y frases
 const imagenes = [
-  "imagenes/guss.jpg",
-  "imagenes/isa.jpg",
-  "imagenes/manuel.jpg",
-  "imagenes/tom.jpg",
-  "imagenes/meli.jpg",
-  "imagenes/todos.jpg",
+  "../FuHaus__/imagenes/guss.jpg",
+  "../FulHaus__/imagenes/isa.jpg",
+  "../FulHaus__/imagenes/manuel.jpg",
+  "../FulHaus__/imagenes/tom.jpg",
+  "../FulHaus__/imagenes/meli.jpg",
+  "../FulHaus__/imagenes/todos.jpg",
 ];
 
 const titulos = [
