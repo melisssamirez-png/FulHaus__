@@ -70,6 +70,36 @@ h2 {
 }
 
 
+.carta {
+    width: 300px;
+    height: 400px;
+    background-color: #fdf6e3; /* Color de fondo que simula papel */
+    border: 1px solid #b5a56d; /* Borde de carta */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px; /* Agrega perspectiva para un efecto 3D */
+}
+
+/* Estilo para la imagen dentro de la carta */
+.imagen-carta {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 8px; /* Bordes redondeados */
+    transition: transform 1s; /* Suaviza el efecto de giro */
+    transform-style: preserve-3d; /* Mantiene el espacio 3D */
+}
+
+/* Cuando se activa la animación de giro */
+.carta.volteada .imagen-carta {
+    transform: rotateY(180deg); /* Rota la imagen sobre su eje Y */
+}
+
+
 
 #foto {
  height: 600px;;
@@ -93,7 +123,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
 }
-}
+
 
 .prediccion::first-letter {
   text-transform: uppercase;

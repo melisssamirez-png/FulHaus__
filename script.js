@@ -1,9 +1,13 @@
 
-conts imagenes = [
+const imagenes2 = [
 
   "../FulHaus__/imagenes/CARTA.webp"
 ]
 
+function flipCard() {
+    const carta = document.querySelector('.carta');
+    carta.classList.toggle('volteada'); // Añade o quita la clase 'volteada'
+}
 
 
 // Crear las listas de imágenes, títulos y frases
@@ -37,6 +41,7 @@ const frases = [
 
 // Trae los elementos del HTML que tienen ese id
 const imagen = document.getElementById("foto");
+const carta = document.getElementById("carta");
 const titulo = document.getElementById("titulo1");
 const prediccion = document.getElementById("prediccion1");
 const boton = document.getElementById("boton");
@@ -65,6 +70,10 @@ function generarPrediccion() {
 // Ejecuta la función generarPoema() cada vez que hago click en el botón
 boton.addEventListener("click", function () {
   generarPrediccion();
+});
+
+carta.addEventListener("click", function () {
+  carta.src= "./imagenes/CARTA.webp";
 });
 
 generarPrediccion();
