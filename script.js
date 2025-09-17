@@ -69,6 +69,8 @@ boton.addEventListener("click", function () {
 });
 
 carta.addEventListener("click", ()=> {
+
+  flipCard
  
 
   if (esOriginal) {
