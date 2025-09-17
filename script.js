@@ -8,12 +8,12 @@ function flipCard() {
 
 // Crear las listas de imágenes, títulos y frases
 const imagenes = [
-  "../FulHaus__/imagenes/guss.jpg",
-  "../FulHaus__/imagenes/isa.jpg",
-  "../FulHaus__/imagenes/manuel.jpg",
-  "../FulHaus__/imagenes/tom.jpg",
-  "../FulHaus__/imagenes/meli.jpg",
-  "../FulHaus__/imagenes/todos.jpg",
+  "imagenes/guss.jpg",
+  "imagenes/isa.jpg",
+  "imagenes/manuel.jpg",
+  "imagenes/tom.jpg",
+  "imagenes/meli.jpg",
+  "imagenes/todos.jpg",
 ];
 
 const titulos = [
@@ -70,12 +70,20 @@ boton.addEventListener("click", function () {
 
 carta.addEventListener("click", ()=> {
  
-  flipCard ();
 
-  imagen.src =  "FulHaus__/imagenes/guss.jpg";
-
-
+  if (esOriginal) {
+    carta.src = "imagenes/guss.jpg";   // si está en original → cambia a alterna
+  } else {
+    "imagenes/guss.jpg" = carta.src;  // si está en alterna → vuelve al original
+  }
+  esOriginal = !esOriginal; // cambia el booleano (true ↔ false)
 });
+
+
+
+
+
+
 
 
 
